@@ -136,3 +136,26 @@ body {
   border-radius: 20px;
    
 }
+.stats {
+  text-align: center;
+  background-color: #e8e8fd;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.stats-grid div h3 {
+  font-size: 32px;
+  color: #4f46e5;
+}
