@@ -210,3 +210,30 @@ body {
   font-size: 12px;
   color: #718096;
 }
+
+.contact {
+  padding: 60px 20px;
+  background-color: #dfe2f9;
+  display: flex;
+  justify-content: space-between;
+}
+.let-text {
+  font-size: 40px;
+  margin: 80px;
+  
+}
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
